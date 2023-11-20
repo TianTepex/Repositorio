@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMODE</title>
+    <link rel="shortcut icon" href="img/ICONO.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="img/SomodeWhite.png" alt="" class="logo">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Normatividad</a></li>
+                <li><a href="fichasTecnicas.html">Fichas tecnicas</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>DEMOLICIÓN DE ESTRUCTURAS</h1>
+            <br>
+            <P>La demolición de estructuras es un proceso fundamental en la construcción y la ingeniería civil, y el uso de fórmulas matemáticas desempeña un papel crucial en este campo. Estas fórmulas permiten a los ingenieros y contratistas calcular con precisión aspectos como la carga, la resistencia de los materiales, la distribución de fuerzas, y otros factores críticos que deben ser tenidos en cuenta para llevar a cabo una demolición segura y eficiente. Al emplear fórmulas matemáticas, se puede determinar la cantidad de explosivos necesarios, la ubicación adecuada de cargas explosivas, y prever el comportamiento de la estructura durante la demolición, minimizando riesgos para la seguridad y el medio ambiente. En resumen, el uso de fórmulas matemáticas en la demolición de estructuras garantiza un proceso más controlado, preciso y seguro, lo que es esencial en la industria de la construcción y la ingeniería.</P>
+            <br>
+            <br>
+            <div>
+                <button type="button" id="tala-Arboles"> <span></span> TALA DE ARBOLES</button>
+                <button type="button"> <span></span> CARGA DE ROMPIMIENTO</button>
+                <button type="button"> <span></span> CORTE DE ACERO</button>
+            </div>
+
+            <!--PERMITE DIRECCIONAR LOS BOTONES A LAS DIFERENTES INDEX CREADOS-->
+            <script>
+                var boton = document.getElementById("tala-Arboles");
+                boton.addEventListener("click", function(){
+                    window.location.href = "talaArboles.html";
+                })
+            </script>
+        </div>
+    </div>    
+</body>
+</html>
